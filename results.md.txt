@@ -1,0 +1,28 @@
+# Results
+
+## Correct Categories
+
+| Message | Category |
+|---------|----------|
+| 1 | Complaint |
+| 2 | Question |
+| 3 | Praise |
+| 4 | Complaint |
+| 5 | Question |
+| 6 | Praise |
+| 7 | Complaint |
+| 8 | Question |
+| 9 | Praise |
+| 10 | Complaint |
+
+## Accuracy Comparison
+
+| AI Tool | Zero-Shot | Few-Shot |
+|---------|-----------|----------|
+| ChatGPT | 10/10 | 10/10 |
+| Claude | 10/10 | 10/10 |
+| Gemini | 10/10 | 10/10 |
+
+## Reflection
+
+The Few-Shot prompt provided examples that made the expected output format clearer. Although all three AI tools correctly classified these simple messages, the Few-Shot approach produced more consistent and structured responses. This activity demonstrated how prompt design can improve the quality and reliability of AI-generated results.

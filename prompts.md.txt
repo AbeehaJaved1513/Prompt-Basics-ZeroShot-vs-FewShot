@@ -1,0 +1,54 @@
+Zero Shot Prompt
+Classify each customer support message into one of these categories:
+
+- Complaint
+- Question
+- Praise
+
+Return the answer in a table with Message Number and Category only.
+
+Messages:
+
+1. My order arrived broken and nobody is replying.
+2. How can I change my password?
+3. I love your customer service!
+4. The app keeps crashing every time I open it.
+5. What are your business hours?
+6. Thank you for solving my issue so quickly.
+7. I received the wrong product.
+8. Is international shipping available?
+9. Your website is amazing!
+10. My refund has not been processed yet.
+
+Few Shot Prompt
+Classify customer support messages into one of these categories:
+
+Complaint
+Question
+Praise
+
+Examples:
+
+Message: My package arrived damaged.
+Category: Complaint
+
+Message: What payment methods do you accept?
+Category: Question
+
+Message: Excellent support team!
+Category: Praise
+
+Now classify these messages:
+
+1. My order arrived broken and nobody is replying.
+2. How can I change my password?
+3. I love your customer service!
+4. The app keeps crashing every time I open it.
+5. What are your business hours?
+6. Thank you for solving my issue so quickly.
+7. I received the wrong product.
+8. Is international shipping available?
+9. Your website is amazing!
+10. My refund has not been processed yet.
+
+Return only a table.
